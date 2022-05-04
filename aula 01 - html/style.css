@@ -1,0 +1,76 @@
+/*COMENTARIOS EM CSS*/
+
+body {
+  color: white;
+  background-color: rgb(44, 44, 44);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hello-world {
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 10px 5px 5px black;
+}
+
+.hello-world :nth-child(1) {
+  color: blue;
+}
+
+.hello-world :nth-child(2) {
+  color: red;
+}
+
+.hello-world :nth-child(3) {
+  color: green;
+}
+
+.hello-world :nth-child(4) {
+  color: orange;
+}
+
+.hello-world :nth-child(5) {
+  color: purple;
+}
+
+.formatacao-texto p :nth-child(1) {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.caixa1,
+.caixa2,
+.caixa3 {
+  box-shadow: 5px 5px 5px black;
+}
+
+.caixa1 {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  border: 2px solid black;
+}
+
+.caixa2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border: 2px solid black;
+}
+
+.caixa3 {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border: 2px solid black;
+}
+
+.titulo-caixas {
+  font-size: 40px;
+  text-align: center;
+}
+
+.caixa-das-caixas {
+  display: flex;
+  justify-content: space-between;
+}
