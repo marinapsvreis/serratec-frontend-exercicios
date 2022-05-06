@@ -57,6 +57,9 @@
 
       #buttonEnviar {
         background-color: rgb(0, 119, 255);
+        height: 100%;
+        border: none;
+        border-radius: 0;
       }
 
       #buttonCancelar {
@@ -67,22 +70,22 @@
   <body>
     <h1>Formulário de Cadastro</h1>
 
-    <form action="#" method="get">
+    <form method="get">
       <label for="nome">Nome</label>
-      <input type="text" name="nome" id="nome" />
+      <input type="text" name="nome" id="nome" required />
       <label for="sobrenome">Sobrenome</label>
-      <input type="text" name="sobrenome" id="sobrenome" />
+      <input type="text" name="sobrenome" id="sobrenome" required />
       <label for="data-nascimento">Data Nascimento</label>
-      <input type="date" name="data-nascimento" id="data-nascimento" />
+      <input type="date" name="data-nascimento" id="data-nascimento" required />
       <label for="email">E-mail</label>
       <input type="email" name="email" id="email" required />
       <label for="telefone">Telefone</label>
-      <input type="text" name="telefone" id="telefone" />
+      <input type="text" name="telefone" id="telefone" required />
       <label for="cpf">CPF</label>
       <input type="text" name="cpf" id="cpf" required />
       <label for="lang_prog">Tecnologia de preferência</label>
       <div id="opcoes">
-        <input type="radio" name="lang_prog" id="html" />
+        <input type="radio" name="lang_prog" id="html" checked />
         <label>HTML</label>
         <input type="radio" name="lang_prog" id="css" />
         <label>CSS</label>
@@ -101,7 +104,14 @@
       <input type="password" name="senha" id="senha" required />
       <br />
       <div id="div-buttons">
-        <div><a id="buttonEnviar" class="button" href="#">Enviar</a></div>
+        <div>
+          <input
+            type="submit"
+            value="Enviar"
+            class="button"
+            id="buttonEnviar"
+          />
+        </div>
         <div><a id="buttonCancelar" class="button" href="#">Cancelar</a></div>
       </div>
     </form>
