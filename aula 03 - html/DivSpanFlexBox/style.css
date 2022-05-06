@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(204, 193, 193);
+}
+.first-div {
+  width: 90vw;
+  height: 100px;
+  background-color: blue;
+  border: 5px solid black;
+  color: white;
+  font-size: 30px;
+  margin: auto;
+}
+span {
+  /* display: block; */
+  width: 90vw;
+  height: 100px;
+  background-color: red;
+  border: 5px solid black;
+  color: white;
+  font-size: 30px;
+  line-height: 1.5;
+}
+section div {
+  width: 100px;
+  height: 100px;
+  box-shadow: 3px 3px 5px black;
+}
+section :nth-child(1) {
+  background-color: orange;
+}
+section :nth-child(2) {
+  background-color: blue;
+}
+section :nth-child(3) {
+  background-color: purple;
+}
+#section1 {
+  display: flex;
+  justify-content: space-around;
+}
+#section2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#section3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#section4 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#section5 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#section6 {
+  display: flex;
+  justify-content: center;
+}
+
+#section7 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}

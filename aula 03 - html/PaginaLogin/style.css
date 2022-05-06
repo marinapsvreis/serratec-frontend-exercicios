@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  background-image: url(https://wallpaperaccess.com/full/5344388.png);
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.lado-esquerdo {
+  width: 50%;
+  border-right: 5px solid rgb(167, 60, 255);
+  box-shadow: px 3px 10px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: 300ms;
+}
+
+.lado-esquerdo:hover {
+  border-right: 5px solid rgba(19, 4, 37, 0.897);
+}
+
+.lado-esquerdo img {
+  width: 250px;
+  height: 250px;
+  filter: drop-shadow(5px 5px 5px rgb(167, 60, 255));
+  transition: 300ms;
+}
+
+.lado-esquerdo img:hover {
+  width: 300px;
+  height: 300px;
+  filter: drop-shadow(5px 5px 5px rgb(249, 217, 255));
+}
+
+.lado-direito {
+  background-color: rgba(69, 30, 117, 0.897);
+  width: 50%;
+}
+
+.lado-direito h2 {
+  padding-top: 200px;
+  padding-bottom: 50px;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 3px 3px 10px rgb(167, 60, 255);
+}
+
+.quadro-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(43, 58, 219, 0.527);
+  border: 3px solid rgb(167, 60, 255);
+  box-shadow: 3px 3px 10px rgb(167, 60, 255);
+  border-radius: 10px;
+
+  width: 400px;
+  height: 500px;
+  margin: auto;
+
+  transition: 300ms;
+}
+
+.quadro-login:hover {
+  border: 3px solid rgb(249, 217, 255);
+  box-shadow: 3px 3px 10px rgb(249, 217, 255);
+}
+
+.quadro-login label {
+  font-size: 30px;
+  text-align: left;
+  width: 80%;
+  color: white;
+  text-shadow: 3px 3px 10px black;
+  margin-bottom: 10px;
+}
+
+.quadro-login input {
+  height: fit-content;
+  width: 80%;
+  height: 60px;
+  font-size: 25px;
+  outline: 3px solid rgb(167, 60, 255);
+  box-shadow: 3px 3px 10px rgb(167, 60, 255);
+  border-radius: 5px;
+  margin-bottom: 50px;
+  padding: 10px;
+
+  transition: 300ms;
+}
+
+.quadro-login input:focus {
+  outline: 3px solid rgb(249, 217, 255);
+  box-shadow: 3px 3px 10px rgb(249, 217, 255);
+}
+
+.quadro-login .a-caixa {
+  background-color: rgb(113, 27, 194);
+  width: 200px;
+  height: 50px;
+  border: 3px solid rgb(167, 60, 255);
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgb(167, 60, 255);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: 300ms;
+}
+
+.quadro-login a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: white;
+}
+
+.a-caixa:hover {
+  background-color: blue;
+  border: 3px solid rgb(249, 217, 255);
+  box-shadow: 3px 3px 10px rgb(249, 217, 255);
+}
