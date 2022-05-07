@@ -1,0 +1,61 @@
+/*
+
+=====SELETORES COMBINADORES=====
+
+div p - descentendes 
+(filho, neto...tudo)
+
+div > p  - filho 
+(apenas pega os filhos)
+
+div + p - adjacente/irmão
+(próximo elemento mas não filho)
+
+div ~ p - seletor geral de irmãos
+(todos os irmãos)
+
+=====PSEUDO-CLASSES======
+
+selector:pseudo-class
+
+a:link - estilo do link, mesma coisa que selecionar só "a"
+
+a:visited - muda o estilo do link depois de clicado
+
+a:hover - muda o estilo do link com o mouse em cima
+
+a:active - muda o estilo durante o click antes de soltar o botão
+
+a.highlight:hover - todo a que possui a classe highlight com o mouse em cima
+
+p:first-child  - primeiro filho de p
+
+=====PSEUDO-ELEMENTOS======
+
+selector::pseudo-element
+
+p::first-line - primeira linha de p
+p::first-letter - primeira letra de p
+p::before - antes de p
+p::after - depois de p
+
+::marker - marcadores dos itens da lista (bullets)
+::selection - selecionado
+::placeholder - estilizar placeholder
+
+=====SELETORES DE ATRIBUTO======
+a[atributo]
+a[target="_blank"] - todos os a que tiver um target blank
+a[atributte~="value]
+a[class|="top"] - que comece com a classe top
+a[atributte$="value"] -  que termina com um atributo especificado
+a[atributte*="value"] - todos que contém o valor especificado
+
+input[type="text"] - todos os inputs do type text
+input[type="button"] - todos os inputs do type button
+
+
+
+
+
+*/
